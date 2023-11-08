@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL WEBSITE</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- javascript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Mono:ital@1&family=Open+Sans&family=PT+Sans:ital@1&family=Phudu:wght@300&family=Poiret+One&family=Poppins:ital@1&family=Quicksand&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono:wght@200&family=Style+Script&family=Work+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- navebar -->
+    <nav class="navbar bg-body-tertiary" style="background-color: #e3f2fd; height: 90px;">
+        <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./travel_images/logo_L2-removebg-preview.png" alt="Logo" width="80" height="70" class="d-inline-block align-text-top">
+                <p id="long-way">LONG WAY <br> <span>Travals</span> </p>
+              </a>
+
+              <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 62px;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Home</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-1 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Packages</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Link</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <button class="btn btn-outline-success m-4" type="submit">SIGN IN</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+            </div>
+          </nav>
+    <!-- navebar -->
+
+     <!-- caurosel -->
+     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./travel_images/image1.jpg" class="d-block w-100" alt="..." height="650px">
+          </div>
+          <div class="carousel-item">
+            <img src="./travel_images/kerala image2.jpg" class="d-block w-100" alt="..." height="650px">
+          </div>
+          <div class="carousel-item">
+            <img src="./travel_images/croped.jpg" class="d-block w-100" alt="..." height="650px">
+          </div>
+        </div>
+      </div>
+    <!-- caurosel -->
+
+    <!-- home -->
+    <div class="container-fluid">
+        <div id="background-image">
+         <p id="your-travel">YOUR TRAVEL GEST GOT <span id="span-upgraded">UPGRADED</span></p>
+         <p id="Finaly">Finaly, a Travel solution just for airline employess. <br>
+         your exclusive discount?They're all hear.</p>
+         <h2><a href="" style="color: white;"> View <span style="color: blueviolet;">More</span></a><span class="change-name"></span></h2>
+        </div>
+        <h3 id="scroll">-Scroll to explore more-</h3>
+    </div>
+    <!-- home -->
+
+    <!-- booking -->
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-2 "></div>
+          <div class="col-8 ">
+            <div id="background-for-booking" class="m-4">
+              <h3 class="mb-3" id="book-ticket">BOOK YOUR TICKET</h3>
+  
+              <!-- form for booking -->
+              <form class="row g-3">
+                <div class="col-md-4 ">
+                  <label for="validationServer01" class="form-label">From</label>
+                  <input type="text" class="form-control is-valid" id="validationServer01" value="" placeholder="Enter starting point" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationServer02" class="form-label">To</label>
+                  <input type="text" class="form-control is-valid" id="validationServer02" value="" placeholder="Enter final destination" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationServerUsername" class="form-label">Email id</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Email id" required>
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                      Please choose a Email.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationServer03" class="form-label">City</label>
+                  <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" placeholder="enter your city" required>
+                  <div id="validationServer03Feedback" class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationServer04" class="form-label">Number of participants</label>
+                  <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>singe trip</option>
+                    <option>2 persons</option>
+                    <option>more than 10</option>
+                    <option>other</option>
+                  </select>
+                  <div id="validationServer04Feedback" class="invalid-feedback">
+                    Please select a value.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationServer05" class="form-label">Select the date</label>
+                  <input type="date" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                  <div id="validationServer05Feedback" class="invalid-feedback">
+                    Please provide a date.
+                  </div>
+                </div>
+                
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input is-invalid m-2" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                    <label class="form-check-label " for="invalidCheck3">
+                      Agree to all the detils given aboue is correct
+                    </label>
+                    <div id="invalidCheck3Feedback" class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12" >
+                  <button class="btn btn-primary ms-5 mb-3" type="submit">Submit</button>
+                </div>
+              </form>
+              <!-- form for booking -->
+              
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+      <!-- booking -->
+
+       <!-- places card -->
+       <div class="container-fluid">
+        <h1><p class="text-center mb-5" id="travel">Travel on the <span style="color: rgb(0, 102, 255);">Belt</span> and <span style="color: rgb(0, 102, 255);">Road</span> <br><span style="font-size: x-large; color: rgb(16, 241, 16);">Popular <span style="color: blue;">destination</span></span></p> </h1>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 100%;" id="zoom">
+                    <img src="./travel_images/banglur crd1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bangalore</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 100%;" id="zoom">
+                    <img src="../travel_images/varanasi crd2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Varanasi</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 100%;" id="zoom">
+                    <img src="./travel_images/kerala crd3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kerala</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 100%;" id="zoom">
+                    <img src="./travel_images/alaska crd4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Alaska</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">View details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center mt-5"><a href="#" class="btn btn-info" id="view-more">View more</a></div>
+          </div>
+    
+       </div>
+       <!-- places card -->
+
+       <!-- section 4 -->
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="background-img">
+                <div>
+                    <p id="on-top-image"> <br> 
+                        Browse day-by-day itineraries and travel ideas</p> <br>
+
+                <div> <br>
+    <!-- ofcanvas -->
+    <div class=" d-flex justify-content-center mt-4">
+        <a class="btn btn-success" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          Plan a ride
+        </a>
+        <button class="btn btn-warning ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          Plan a family tours
+        </button>
+      </div>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">A trip to refresh</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some beautiful places with affordable prices are waiting.Plan youer trip
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Type of tours
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Guided tours</a></li>
+              <li><a class="dropdown-item" href="#">Self-guided tour</a></li>
+              <li><a class="dropdown-item" href="#">Self-supported tour</a></li>
+            </ul>
+          </div>
+          
+          <div class="container-fluid">
+            <h3 class="m-4">Populer triping places</h3>
+            <div class="row mt-5">
+              <div class="col-6"><div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imageT/kerala.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imageT/italy image3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imageT/banglur.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div></div>
+              <div class="col-6"><div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./imageT/kerala.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imageT/italy image3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./imageT/banglur.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div></div>
+            </div>
+            
+          </div>
+  
+        </div>
+     </div>
+     <!-- ofcanvas -->
+            </div>
+
+            </div>
+        </div>
+       </div>
+    </div>
+       <!-- section 4 -->
+
+    <!-- section5 -->
+    <div class="container-fluid" style="margin-top: 100px;">
+        <p><h1 id="top-destination">Top <span style="color: blue;">Destination</span></h1>
+        <br><h3 id="world-full" class="mb-5">World full of fascinating travel destinations, choosing the perfect vacation spot</h3></p>
+      </div>
+      <div class="container-fluid">
+        <div class="row m-5">
+          <div class=" col-lg-3 col-md-6 col-sm-12 mb-3" >
+            <div class="card" style="width: 100%;"  id="zoom">
+              <img src="./travel_images/5-1.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-3 col-md-6 col-sm-12 mb-3"> <div class="card" style="width: 100%;" id="zoom">
+            <img src="./travel_images/5-2.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+          <div class=" col-lg-3 col-md-6 col-sm-12 mb-3"> <div class="card" style="width: 100%" id="zoom">
+            <img src="./travel_images/5-3.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+          <div class=" col-lg-3 col-md-6 col-sm-12"> <div class="card" style="width: 100%" id="zoom">
+            <img src="./travel_images/5-4.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row  m-5" >
+          
+          <div class=" col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card" style="width: 100%;"  id="zoom">
+              <img src="./travel_images/5-8.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-3 col-md-6 col-sm-12 mb-3"> 
+            <div class="card" style="width: 100%" id="zoom">
+            <img src="./travel_images/5-6.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+          <div class=" col-lg-3 col-md-6 col-sm-12 mb-3"> 
+            <div class="card" style="width: 100%;" id="zoom">
+            <img src="./travel_images/5-7.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+          <div class=" col-lg-3 col-md-6 col-sm-12"> 
+            <div class="card" style="width: 100%;" id="zoom">
+            <img src="./travel_images/alaska crd4.jpg" class="card-img-top" alt="..." style="height: 13rem;">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section5 -->   
+
+      <!-- airline -->
+    <div id="airline" >
+        <div class="m-5">
+          <div><h3 style="color: white;">Popular airlines ✈️</h3><br><h3 style="color: white;">Millions of flights. One simple search.</h3></div>
+  
+          <!-- form -->
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip01" class="form-label" style="color: white;">From</label>
+              <input type="text" class="form-control" id="validationTooltip01" placeholder="From" value="" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltip02" class="form-label" style="color: white;">To</label>
+              <input type="text" class="form-control" id="validationTooltip02" value="" placeholder="To" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 position-relative">
+              <label for="validationTooltipUsername" class="form-label" style="color: white;">User mail-id</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="email" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 position-relative">
+              <label for="validationTooltip03" class="form-label" style="color: white;">Way you prefer</label>
+              <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">airline</option>
+                <option>train</option>
+                <option>others</option>
+              </select>
+              <!-- <input type="text" class="form-control" id="validationTooltip03" required> -->
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip04" class="form-label" style="color: white;">Date you start</label>
+              <input type="date" class="form-control" id="validationTooltip05" required>
+              <!-- <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled value="">trip</option>
+                <option>others</option>
+              </select> -->
+              <div class="invalid-tooltip">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 position-relative">
+              <label for="validationTooltip05" class="form-label" style="color: white;">Date the trip ends</label>
+              <input type="date" class="form-control" id="validationTooltip05" required>
+              <div class="invalid-tooltip">
+                Please provide a valid zip.
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary mb-4 mt-4" type="submit" >Search</button>
+            </div>
+          </form>
+          <!-- form -->
+  
+        </div>
+    </div>
+     <!-- airline -->
+
+     <!-- button -->
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mx-auto">
+                <button id="button" type="button">🛌 Hotels</button> <br> <br>
+                <button id="button" type="button">🚗 Car hire</button>
+            </div>
+        </div>
+     </div>
+     <!-- button -->
+
+     <!-- about -->
+     <div class="container-fluid">
+        <h1 style="text-align: center;" class="mb-4 mt-5">about</h1>
+        <div class="row" style="background-color: antiquewhite;;">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="./travel_images/backgrnd.png" alt="" width="100%">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                <h2>Who we are</h2>
+          <p><h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur dolor distinctio laudantium mollitia corrupti pariatur accusamus, aliquid sequi nulla tenetur nemo provident vero ullam, quae a fuga labore explicabo autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aperiam dignissimos odio dolorem enim repudiandae consectetur eius aspernatur fuga alias dolore rem laudantium quam fugiat cumque, illo, voluptatibus explicabo est!</h4></p>
+          <button type="button" class="btn btn-secondary btn-sm">Read more</button>
+            </div>
+        </div>
+     </div>
+    <!-- about -->
+
+    <!-- services -->
+  <div class="container-fluid" style="margin-top: 150px;">
+    <h2 style="text-align: center;"><span style="color: rgb(176, 7, 7);">Our</span>Services</h2>
+    <div class="row m-5" style="margin-left: 150px;" >
+      <div class=" col-lg-4 col-md-12 col-sm-12" id="zoom-about">
+        <div style="text-align: center;"><i class="fa-solid fa-utensils" id="size-font-awsom"></i></div>
+        <h2 style="text-align: center;">Food and Drinks</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi qui iusto id earum nam, quos facilis. Et minima officiis suscipit quia itaque nisi rem, maiores inventore pariatur quibusdam magni vero!</p>
+      </div>
+      <div class=" col-lg-4 col-md-12 col-sm-12"id="zoom-about">
+        <div style="text-align: center;"><i class="fa-brands fa-guilded" id="size-font-awsom"></i></div>
+        <h2 style="text-align: center;">Meet Our Guide</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quos. Velit reprehenderit assumenda est minus tempora quasi id illum, iste libero esse vitae soluta. Animi dolor expedita necessitatibus non amet?</p>
+      </div>
+      <div class=" col-lg-4 col-md-12 col-sm-12"id="zoom-about">
+        <div style="text-align: center;"><i class="fa-solid fa-location-dot" id="size-font-awsom"></i></div>
+        <h2 style="text-align: center;">Location</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, tempora vitae eos laborum magnam amet reiciendis voluptate perferendis officia odio mollitia in laudantium molestias voluptatem quo, excepturi earum dolor voluptates.</p>
+      </div>
+    </div>
+  </div>
+    <!-- services -->
+
+    <!-- contact -->
+    <div class="container-fluid">
+        <div class="row" style="background-color: antiquewhite;">
+          <h2 class="m-3"><span style="color: cornflowerblue;">Connect</span> to our team</h2>
+          <div class="col-lg-6 col-md-4 col-sm-12">
+            <img src="./travel_images/team.jpg" alt="" width="100%" height="98%" >
+          </div>
+          <div class="col-6">
+            <div class="row-1"><img src="./travel_images/logo_L2-removebg-preview.png" alt=".." width="10%"> <p class="LONG-WAY">LONG WAY</p> <br>
+              <p class="Travals">Travals</p></div>
+            <div class="row-11"><form class="row lg-3 ">
+              <div class="col-lg-6 col-md-8 col-sm-12 ">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-lg-6 col-md-8 col-sm-12">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-lg-6 col-md-8 col-sm-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Full Address">
+              </div>
+              <div class="col-lg-6 col-md-8 col-sm-12">
+                <label for="inputAddress2" class="form-label">Curent Address</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-lg-6 col-md-8 col-sm-12">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>kerala</option>
+                  <option>other</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">pin</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary m-3">Conform</button>
+              </div>
+            </form></div>
+            
+          </div>
+        </div>
+      </div>
+      <!-- contact -->
+
+      <!-- our clint -->
+    <div class="container-fluid mt-4">
+        <h3 style="margin-left: 20px;"><span style="color: red;">Our</span> satisfied clint</h3>
+      </div>
+  
+      <div class="border-primary mb-3">
+        <div class="row mt-5" style="margin-left: 30px;">
+          <div class=" col-lg-3 col-md-6 col-sm-12 "><div class="card border-primary mb-3" style="max-width: 18rem;"id="shadow">
+            <div class="card-header"><img style="border-radius: 100px;" src="./travel_images/taraneh alidoosti.jpg" alt="...." width="100%" height="220px"></div>
+            <div class="card-body text-primary">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+          <div class=" col-lg-3 col-md-6 col-sm-12"><div class="card border-success mb-3" style="max-width: 18rem;"id="shadow">
+            <div class="card-header"><img style="border-radius: 100px;" src="./travel_images/angelina jolie.jpg" alt="..." width="100%" height="220px"></div>
+            <div class="card-body text-success">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+          <div class=" col-lg-3 col-md-6 col-sm-12"><div class="card border-warning mb-3" style="max-width: 18rem;"id="shadow">
+            <div class="card-header"><img style="border-radius: 100px;" src="./travel_images/sajal aly.jpg" alt="........." width="100%" height="220px"></div>
+            <div class="card-body text-warning">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+          <div class=" col-lg-3 col-md-6 col-sm-12"><div class="card border-danger mb-3" style="max-width: 18rem;"id="shadow" >
+            <div class="card-header" ><img style="border-radius: 100px;" src="./travel_images/chris hemsworth.jpg" alt="....." width="100%" height="220px"></div>
+            <div class="card-body text-danger">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div></div>
+        </div>
+  
+      </div>
+      <!-- our clint -->
+
+      <!-- our social meadia -->
+    <div class="container-fluid">
+      <div class="row mt-5" style="background-color: antiquewhite;">
+        <div class="col-1"></div>
+        <div class="col-lg-3 col-md-3 sm-12"><p style="font-size: 40px;">Keep in tech with us on:</p>
+          <div id="icon-set">
+           <div id="icon"><i class="fa-brands fa-facebook"></i></div>
+            <div id="icon"><i class="fa-brands fa-instagram "></i></div>  
+            <div id="icon"><i class="fa-brands fa-twitter "></i></div>
+          </div>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-lg-3 col-md-3 sm-12 md-3 mt-2"><h4><u>Customer sapport:</u></h4><br><a href="">
+          <ul class="">
+            <li><a href="">Help&support</a></li>
+            <li><a href="">Paiment options support</a></li>
+            <li><a href="">Licence</a></li>
+          </ul>
+        </a></div>
+        <div class="col-lg-3 col-md-3 sm-12 mt-3"><h4><u>Contact:</u></h4>
+        <a href=""><i class="fa-solid fa-location-dot"></i> Location</a><br>
+        <a href=""><i class="fa-solid fa-phone"></i> 9243543123</a><br>
+        <a href=""><i class="fa-solid fa-square-envelope"></i> longway@gmail.com</a>
+        </div>
+      </div>
+    </div>
+    <!-- our social meadia -->
+    <div class="mt-4">
+        <p style="text-align: center;font-weight: bold; color: white; background-color: black; opacity: 0.6;">All Right Reserved&reg;Long Way Travels Pvt Ltd&copy;</p>
+  
+      </div>
+  
+</body>
+</html>

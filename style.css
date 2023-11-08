@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/* navebar style */
+#long-way{
+    padding-left: 75px;
+    margin-top: -65px;
+    font-family: 'Style Script', cursive;
+    font-size: larger;
+}
+/* home */
+#background-image{
+    text-align: center;
+    margin-top: -350px;
+    position: relative;
+}
+#your-travel{
+    font-family: 'Abril Fatface', cursive;
+    font-size: xx-large;
+   color: white;
+}
+#span-upgraded{
+    color: black;
+}
+#Finaly{
+    font-family: 'Poiret One', cursive;
+    font-size: x-large;
+    color: white;
+}
+#scroll{
+    position: relative;
+    text-align: center;
+    margin-top: 115px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+#zoom{
+    transition: transform 0.50s;
+}
+#zoom:hover{
+    transform: scale(1.10);
+}
+#view-more:hover{
+    color: white;
+    background-color: blue;
+}
+/* section4 */
+#on-top-image{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+#background-img{
+    background-image: url(./travel_images/image-background.jpeg);
+    margin-top: 30px;
+}
+/* section5 */
+#top-destination{
+    text-align: center;
+}
+#world-full{
+    text-align: center;
+    color: red;
+}
+/* airline */
+#airline{
+    background-color: rgb(3, 2, 50);
+}
+#button{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(3, 2, 50);
+    width: 100%;
+    height: 60px;
+    border-radius: 10px; 
+    
+}
+/* services */
+#zoom-about{
+    transition: transform 0.50s;
+}
+#zoom-about:hover{
+    transform: scale(1.10);
+    background-image: linear-gradient(to bottom right, yellow, orange);
+}
+
+/* social media */
+#icon{
+    font-size: 40px;
+    padding-left: 5%;
+}
+#icon-set{
+    display: flex;
+}
+#icon:hover{
+    color: blue;
+}
+#size-font-awsom{
+    font-size: 35px;
+}
